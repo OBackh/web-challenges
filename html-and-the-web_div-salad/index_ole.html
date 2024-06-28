@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <title>HTML Basics Excercise</title>
+    <meta charset="UTF-8" />
+  </head>
+  <!--someone forgot to wrap the content of our webpage with an HTML element,
+	which one was it again?-->
+  
+    <body>
+        
+            <header>
+                
+                    <h1>Jane Doe</h1>
+                    <!--Which elements could be used to link to parts of the webpage,
+                      which appear below?-->
+                  <p>
+                      <nav id="nav">
+                          <a href>About Me</a>
+                          <a href>Contact</a>
+                          <a href>Skillset</a>
+                      </nav>
+                  </p>
+                
+            </header>
+            <!--Looks like the following part is the central content of our webpage.-->
+            <main>
+              <article id="about-me">
+                <h2>About me</h2>
+                <p>
+                  Hi there! Welcome to my personal website. Here is gathered the most
+                  important information about me. If you want to work with me or get to
+                  know me, please don't hesitate to get in contact.
+                </p>
+                <!--What element could be used to combine an image with a descriptive caption?-->
+                <p>
+                  <img
+                    src="https://media.licdn.com/dms/image/C4D03AQHWt-TV3LYfnA/profile-displayphoto-shrink_200_200/0/1554747820716?e=1724889600&v=beta&t=AE9pyccfevXXwyr4DrzZOvgzOLVB8E-QJwtmiTHUji0"
+                    alt="Thats me"
+                  />
+                  <p>
+                    A random picture, because I would like to maintain my privacy and
+                    let my code speak for me, instead of images.
+                  </p>
+                </p>
+              </article>
+        
+              <footer id="contact">
+                <h3>Contact</h3>
+                <!--When clicking on these element, nothing happens! But I want to be redirected to the other websites. Why is it not working?-->
+                <a href="https://github.com/neuefische">GitHub</a>
+                <a href="https://de.linkedin.com/">LinkedIn</a>
+                <a href="https://codesandbox.io/">CodeSandbox</a>
+              </footer>
+        
+              <section id="skills">
+                <h4>Skillset</h4>
+                <!--This part could use some bulletpoint to be more structured-->
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Painting rainbows</li>
+                  <li>Party</li>
+                </ul>
+            </main>
+    </body>
+</html>
