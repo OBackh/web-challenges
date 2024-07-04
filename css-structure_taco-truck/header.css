@@ -1,0 +1,10 @@
+.header {
+  border: 1px solid var(--border-layout);
+  width: 35vb;
+  color: var(--header-text);
+  background-color: var(--header-bg);
+}
+
+.header h1 {
+  text-align: center;
+}

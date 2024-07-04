@@ -1,0 +1,19 @@
+.main ul {
+  list-style: none;
+}
+
+main {
+  border: 1px solid var(--border-layout);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.main h2 {
+  background-color: var(--main-title-bg);
+  display: flex;
+  width: fit-content;
+  padding: 12px;
+  color: var(--main-text);
+}

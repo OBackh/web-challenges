@@ -1,0 +1,15 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid var(--border-layout);
+  padding: 18px;
+  width: 30vb;
+  margin: 10px;
+  background: var(--card-bg);
+  border-radius: 20px;
+  color: var(--card-text);
+  min-height: 18vb;
+}
