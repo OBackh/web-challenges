@@ -1,9 +1,23 @@
 import React from "react";
 
-export default function Nav() {
+function Nav({ title, navItems }) {
   return (
-    <div>
-      <p className="header">Navigation</p>
-    </div>
+    <nav className="nav">
+      <nav>
+        <ul>
+          <li>
+            <a href={navItems[0].href}>{navItems[0].name}</a>
+          </li>
+          <li>
+            <a href={navItems[1].href}>{navItems[1].name}</a>
+          </li>
+          <li>
+            <a href={navItems[2].href}>{navItems[2].name}</a>
+          </li>
+        </ul>
+      </nav>
+    </nav>
   );
 }
+
+export default Nav;

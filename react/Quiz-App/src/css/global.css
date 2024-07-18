@@ -1,5 +1,5 @@
 :root {
-  --primary: #ffffff;
+  --primary: rgb(209, 231, 17);
   --secondary: #ff4a11;
   --secondary-light: #fddcd2;
   --white: #ffffff;
@@ -34,14 +34,6 @@ p {
   margin: 0;
 }
 
-body {
-  line-height: 1.5;
-  font-family: var(--ff-primary);
-  color: var(--black);
-  display: flex;
-  justify-content: center;
-}
-
 button {
   font-size: var(--fs-400);
   font-family: var(--ff-primary);
@@ -66,4 +58,14 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+p {
+  border: 1px solid red;
+  color: black;
+  height: 70vh;
+}
+
+main {
+  background-color: aqua;
 }
