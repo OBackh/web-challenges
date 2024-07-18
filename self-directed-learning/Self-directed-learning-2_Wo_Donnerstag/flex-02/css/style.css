@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  display: flex;
+  justify-content: center;
+}
+
+main,
+section,
+article,
+div {
+  _border: 1px solid red;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: crimson;
+  width: 100%;
+}
+
+div {
+  background-color: blue;
+  margin: 10px;
+  color: white;
+  _height: 50px;
+  _width: 50px;
+  text-align: center;
+}
+
+.yellow {
+  background-color: rgb(253, 211, 106);
+  display: flex;
+  gap: 10px;
+}
+
+article p {
+  font-size: large;
+  font-weight: bold;
+}
+
+.firstgreen {
+  display: flex;
+  _background-color: forestgreen;
+  flex-direction: column;
+  width: 60%;
+  height: inherit;
+  padding: 0px;
+  gap: 10px;
+}
+
+.blue1-1 {
+  width: 100%;
+  text-align: left;
+  margin: 0px;
+}
+
+.blue1-2 {
+  width: 100%;
+  text-align: left;
+  margin: 0px;
+  _flex-grow: 1;
+  _flex-shrink: 1;
+}
+
+.blue1-3 {
+  width: 100%;
+  text-align: left;
+  margin: 0px;
+}
+/* -------------- */
+
+main h1 {
+  font-size: small;
+}
+
+main {
+  padding: 5px;
+  width: 90vb;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.aside {
+  background-color: cornflowerblue;
+  width: 40%;
+  height: inherit;
+}
+
+.footer {
+  font-size: smaller;
+  background-color: darkslateblue;
+  color: white;
+}

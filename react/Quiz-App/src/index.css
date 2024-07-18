@@ -1,0 +1,23 @@
+@import "./css/global.css";
+
+@import "./css/bookmark/bookmark.css";
+@import "./css/card-list/card-list.css";
+@import "./css/card/card.css";
+@import "./css/header/header.css";
+@import "./css/navigation/navigation.css";
+@import "./css/profile/profile.css";
+@import "./css/counter-list/counter-list.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

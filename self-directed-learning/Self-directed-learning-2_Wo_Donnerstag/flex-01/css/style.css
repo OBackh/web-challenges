@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+main,
+section,
+article,
+div {
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+div {
+  background-color: blue;
+  margin: 10px;
+  color: white;
+  _height: 50px;
+  _width: 50px;
+  text-align: center;
+}
+
+.green {
+  background-color: forestgreen;
+  display: flex;
+  _justify-content: space-between;
+  height: 7em;
+}
+
+.yellow {
+  background-color: rgb(253, 211, 106);
+}
+
+.green {
+  align-items: center;
+}
+
+article p {
+  font-size: large;
+  font-weight: bold;
+}
+
+.first.green {
+  justify-content: space-between;
+}
+
+.second.green {
+  justify-content: space-around;
+}
+
+/* 1. Reihe */
+
+/* 2. Reihe */
+
+.blue2-1 {
+  flex-shrink: 1;
+  flex-grow: 2;
+  flex-basis: 50px;
+}
+.blue2-2 {
+  flex-shrink: 1;
+  flex-grow: 2;
+  flex-basis: 50px;
+}
+.blue2-3 {
+  flex-shrink: 1;
+  flex-grow: 2;
+  flex-basis: 50px;
+}
+
+/* 3. Reihe */
+.blue3-1 {
+  flex-shrink: 0;
+  flex-grow: 1;
+  flex-basis: 450px;
+}
+.blue3-2 {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 250px;
+}
+
+.blue3-3 {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 250px;
+}
+/* 4. Reihe */
+.blue4-1 {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 150px;
+}
+.blue4-2 {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 400px;
+}
+
+.blue4-3 {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 40px;
+}
+main h1 {
+  font-size: small;
+}
+
+main {
+  padding: 5px;
+}
