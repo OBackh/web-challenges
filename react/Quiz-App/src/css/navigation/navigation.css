@@ -42,3 +42,24 @@
   height: 24px;
   width: 24px;
 }
+
+.menu {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding: 30px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  max-width: 50rem;
+}
+.menu-item {
+  _background-color: blue;
+}
+
+.menu-item a:link,
+.menu-item a:visited {
+  color: black;
+}

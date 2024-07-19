@@ -1,0 +1,6 @@
+.text-main {
+  _position: relative;
+  _top: 10vh;
+  padding: 1vh;
+  text-align: center;
+}
