@@ -4,6 +4,7 @@ import Map from "../Map/index";
 import useSWR from "swr";
 
 const URL = "https://api.wheretheiss.at/v1/satellites/25544";
+
 const fetcher = (...args) => fetch(...args).then((response) => response.json());
 
 export default function ISSTracker() {
